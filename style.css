@@ -14,6 +14,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 350px;
+    margin-left: -100px;
 }
 
 #name{
