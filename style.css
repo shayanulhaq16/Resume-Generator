@@ -1,16 +1,16 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: #ACE1AF;
+body {
+    background-color: #a7c6d4;
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
 
-.img{
+.img {
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -18,52 +18,77 @@ body{
     margin-left: -100px;
 }
 
-#name{
+#name {
     font-size: 50px;
     font-weight: 700;
     text-align: center;
     margin: 20px;
-    color: #2C3539;
+    color: #2b2c3d;
 }
 
-.nav-para-container{
+.nav-para-container {
     width: 100vw;
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-#nav-para{
+#nav-para {
     width: 50vw;
     font-size: 20px;
     text-align: center;
 }
 
-.img img{
+.img img {
     width: 100px;
     height: 100px;
     border-radius: 30px;
 }
 
-main{
+main {
 
     margin-top: 40px;
 
 }
 
-.templates-name{
+.templates-name {
     font-size: 40px;
     text-align: center;
 }
 
-.temp-images{
+.temp-images {
     margin: 50px;
     display: flex;
     justify-content: space-around;
 }
 
-.temp-images img{
+.temp-images img {
     width: 250px;
     border: 2px solid black;
 }
 
+
+footer {
+    background-color: rgb(0, 0, 41);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+footer p{
+    color: white;
+}
+
+.me{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
