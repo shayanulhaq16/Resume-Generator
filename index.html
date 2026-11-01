@@ -25,12 +25,29 @@
     <main>
         <h2 class="templates-name">Templates</h2>
         <div class="temp-images">
-            <img class="img1" src="images/cv1.png" alt="CV">
-            <img class="img2" src="images/cv1.png" alt="CV">
-            <img class="img3" src="images/cv1.png" alt="CV">
-            <img class="img4" src="images/cv1.png" alt="CV">
+            <span>
+                <img onclick="larger_image(this)" src="images/cv1.png" alt="CV">
+                
+            </span>
+            <span>
+
+                <img onclick="larger_image(this)" src="images/cv1.png" alt="CV">
+            </span>
+            <span>
+
+                <img onclick="larger_image(this)" src="images/cv1.png" alt="CV">
+            </span>
+            <span>
+                
+                <img onclick="larger_image(this)" src="images/cv1.png" alt="CV">
+            </span>
         </div>
     </main>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close" onclick="close_img()">&times;</span>
+        <img id="bigImage" src="" alt="Enlarged image">
+    </div>
 
     <footer>
         <div>
@@ -49,6 +66,8 @@
     </footer>
 
 
+
+    <script src="app.js"></script>
 
     
 </body>
