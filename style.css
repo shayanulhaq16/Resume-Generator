@@ -127,3 +127,16 @@ footer p {
     font-size: 40px;
     cursor: pointer;
 }
+
+.btn-container{
+    text-align: center;
+}
+
+.btn-container button{
+    padding: 5px 95px;
+    font-size: 25px;
+    background: rgba(0, 51, 53, 0.589);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
